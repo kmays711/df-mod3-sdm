@@ -2,8 +2,8 @@
 LogMode   MaximumSizeInBytes RecordCount LogName
 -------   ------------------ ----------- -------
 Circular            15728640        2857 Windows PowerShell
-Circular            20971520       36114 System
-Circular            20971520       28660 Security
+Circular            20971520       36118 System
+Circular            20971520       28687 Security
 Circular             1052672        2121 OneApp_IGCC
 Circular             1052672        1704 OAlerts
 Circular            20971520           0 Key Management Service
@@ -11,12 +11,12 @@ Circular             1052672           0 Internet Explorer
 Circular             1052672           0 IntelAudioServiceLog
 Circular             1052672         763 HP Analytics
 Circular            20971520           0 HardwareEvents
-Circular            20971520       58156 Application
+Circular            20971520       58182 Application
 Circular             1052672             Windows Networking Vpn Plugin Platform/OperationalVerbose
 Circular             1052672             Windows Networking Vpn Plugin Platform/Operational
 Circular             1052672           0 SMSApi
 Circular             1052672         165 Setup
-Circular            15728640         181 PowerShellCore/Operational
+Circular            15728640         216 PowerShellCore/Operational
 Circular             1052672           0 OpenSSH/Operational
 Circular             1052672           0 OpenSSH/Admin
 Circular             1052672             Network Isolation Operational
@@ -31,14 +31,14 @@ Circular             1052672           0 Microsoft-Windows-WorkFolders/WHC
 Circular             1052672           0 Microsoft-Windows-WorkFolders/Operational
 Circular             1052672             Microsoft-Windows-Wordpad/Admin
 Circular             1052672           0 Microsoft-Windows-WMPNSS-Service/Operational
-Circular             1052672        1551 Microsoft-Windows-WMI-Activity/Operational
+Circular             1052672        1567 Microsoft-Windows-WMI-Activity/Operational
 Circular             1052672             Microsoft-Windows-wmbclass/Trace
-Circular             1052672        1399 Microsoft-Windows-WLAN-AutoConfig/Operational
+Circular             1052672        1405 Microsoft-Windows-WLAN-AutoConfig/Operational
 Circular             1052672           0 Microsoft-Windows-Wired-AutoConfig/Operational
 Circular             1052672           0 Microsoft-Windows-Winsock-WS2HELP/Operational
 Circular             1052672             Microsoft-Windows-Winsock-NameResolution/Operational
 Circular             1052672             Microsoft-Windows-Winsock-AFD/Operational
-Circular             1052672        1586 Microsoft-Windows-WinRM/Operational
+Circular             1052672        1594 Microsoft-Windows-WinRM/Operational
 Circular             1052672             Microsoft-Windows-WinNat/Oper
 Circular             1052672        2581 Microsoft-Windows-Winlogon/Operational
 Circular             1052672           0 Microsoft-Windows-WinINet/Operational
@@ -51,13 +51,13 @@ Circular             1052672             Microsoft-Windows-WindowsUIImmersive/Op
 Circular             1052672         729 Microsoft-Windows-WindowsSystemAssessmentTool/Operational
 Circular             1052672             Microsoft-Windows-WindowsColorSystem/Operational
 Circular             1052672           0 Microsoft-Windows-WindowsBackup/ActionCenter
-Circular             1052672             Microsoft-Windows-Windows Firewall With Advanced Security/Firewal…
-Circular             1052672         114 Microsoft-Windows-Windows Firewall With Advanced Security/Firewal…
+Circular             1052672             Microsoft-Windows-Windows Firewall With Advanced Security/FirewallVerbose
+Circular             1052672         114 Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics
 Circular             1052672        1038 Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
-Circular             1052672             Microsoft-Windows-Windows Firewall With Advanced Security/Connect…
-Circular             1052672           0 Microsoft-Windows-Windows Firewall With Advanced Security/Connect…
+Circular             1052672             Microsoft-Windows-Windows Firewall With Advanced Security/ConnectionSecurityVerbose
+Circular             1052672           0 Microsoft-Windows-Windows Firewall With Advanced Security/ConnectionSecurity
 Circular             1052672           0 Microsoft-Windows-Windows Defender/WHC
-Circular            16777216        5213 Microsoft-Windows-Windows Defender/Operational
+Circular            16777216        5243 Microsoft-Windows-Windows Defender/Operational
 Circular             1052672           0 Microsoft-Windows-Win32k/Operational
 Circular             1052672         173 Microsoft-Windows-WFP/Operational
 Circular             1052672          98 Microsoft-Windows-WerKernel/Operational
@@ -78,14 +78,14 @@ Circular             1052672           0 Microsoft-Windows-VerifyHardwareSecurit
 Circular             1052672           0 Microsoft-Windows-VDRVROOT/Operational
 Circular             1052672        1252 Microsoft-Windows-UserSettingsBackup-Orchestrator/Operational
 Circular             1052672           0 Microsoft-Windows-UserSettingsBackup-EarlyDownloader/Operational
-Circular             1052672           0 Microsoft-Windows-UserSettingsBackup-BackupUnitProcessor/Operatio…
+Circular             1052672           0 Microsoft-Windows-UserSettingsBackup-BackupUnitProcessor/Operational
 Circular             1052672         313 Microsoft-Windows-UserPnp/DeviceInstall
 Circular             1052672           0 Microsoft-Windows-UserPnp/ActionCenter
 Circular             1052672           0 Microsoft-Windows-User-Loader/Operational
 Circular             4194304         345 Microsoft-Windows-User Profile Service/Operational
 Circular             1052672         102 Microsoft-Windows-User Device Registration/Admin
 Circular             1052672           0 Microsoft-Windows-User Control Panel/Operational
-Circular             1052672        1994 Microsoft-Windows-UniversalTelemetryClient/Operational
+Circular             1052672        2000 Microsoft-Windows-UniversalTelemetryClient/Operational
 Circular             1052672           2 Microsoft-Windows-UAC/Operational
 Circular             1052672           0 Microsoft-Windows-UAC-FileVirtualization/Operational
 Circular             1052672           0 Microsoft-Windows-TZUtil/Operational
@@ -95,7 +95,7 @@ Circular             1052672           0 Microsoft-Windows-Troubleshooting-Recom
 Circular             1052672           0 Microsoft-Windows-Troubleshooting-Recommended/Admin
 Circular             1052672         842 Microsoft-Windows-Time-Service/Operational
 Circular             1052672           0 Microsoft-Windows-Time-Service-PTP-Provider/PTP-Operational
-Circular             1052672           0 Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operat…
+Circular             1052672           0 Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational
 Circular             1052672           0 Microsoft-Windows-TerminalServices-RemoteConnectionManager/Admin
 Circular             1052672        1462 Microsoft-Windows-TerminalServices-RDPClient/Operational
 Circular             1052672           0 Microsoft-Windows-TerminalServices-Printers/Operational
@@ -111,7 +111,7 @@ Circular            10485760             Microsoft-Windows-TaskScheduler/Operati
 Circular             1052672        2233 Microsoft-Windows-TaskScheduler/Maintenance
 Circular             1052672           0 Microsoft-Windows-SystemSettingsThreshold/Operational
 Circular            16777216         150 Microsoft-Windows-Storsvc/Diagnostic
-Circular            20000000       26260 Microsoft-Windows-Store/Operational
+Circular            20000000       26213 Microsoft-Windows-Store/Operational
 Circular             1052672           0 Microsoft-Windows-StorageSpaces-SpaceManager/Operational
 Circular            16777216           0 Microsoft-Windows-StorageSpaces-SpaceManager/Diagnostic
 Circular             1052672           0 Microsoft-Windows-StorageSpaces-Parser/Operational
@@ -124,7 +124,7 @@ Circular            67108864           0 Microsoft-Windows-StorageSettings/Diagn
 Circular            33554432         613 Microsoft-Windows-StorageManagement/Operational
 Circular             1052672           0 Microsoft-Windows-StorageManagement-PartUtil/Operational
 Circular             1052672           0 Microsoft-Windows-Storage-Tiering/Admin
-Circular            33554432       14251 Microsoft-Windows-Storage-Storport/Operational
+Circular            33554432       14259 Microsoft-Windows-Storage-Storport/Operational
 Circular             6291456         142 Microsoft-Windows-Storage-Storport/Health
 Circular             1052672             Microsoft-Windows-Storage-Storport/Admin
 Circular            33554432           0 Microsoft-Windows-Storage-NvmeDisk/Operational
@@ -139,12 +139,12 @@ Circular             5242880       11500 Microsoft-Windows-StateRepository/Opera
 Circular             1052672           0 Microsoft-Windows-SMBWitnessClient/Informational
 Circular             1052672           0 Microsoft-Windows-SMBWitnessClient/Admin
 Circular             8388608           0 Microsoft-Windows-SMBServer/Security
-Circular             8388608       20321 Microsoft-Windows-SMBServer/Operational
+Circular             8388608       20331 Microsoft-Windows-SMBServer/Operational
 Circular             8388608           0 Microsoft-Windows-SMBServer/Connectivity
 Circular             8388608           0 Microsoft-Windows-SMBServer/Audit
 Circular             8388608         299 Microsoft-Windows-SmbClient/Security
 Circular             8388608           0 Microsoft-Windows-SMBClient/Operational
-Circular             8388608       18077 Microsoft-Windows-SmbClient/Connectivity
+Circular             8388608       18085 Microsoft-Windows-SmbClient/Connectivity
 Circular             8388608           0 Microsoft-Windows-SmbClient/Audit
 Circular             1052672             Microsoft-Windows-SmartScreen/Debug
 Circular             1052672           0 Microsoft-Windows-SmartCard-TPM-VCard-Module/Operational
@@ -162,14 +162,14 @@ Circular             1052672           0 Microsoft-Windows-SecurityMitigationsBr
 Circular             1052672             Microsoft-Windows-SecurityMitigationsBroker/Admin
 Circular             1052672           0 Microsoft-Windows-Security-UserConsentVerifier/Audit
 Circular             1052672           1 Microsoft-Windows-Security-SPP-UX-Notifications/ActionCenter
-Circular             1052672           0 Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging/Operation…
+Circular             1052672           0 Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging/Operational
 Circular             1052672           0 Microsoft-Windows-Security-Netlogon/Operational
 Circular             1052672           0 Microsoft-Windows-Security-Mitigations/UserMode
-Circular             1052672        1217 Microsoft-Windows-Security-Mitigations/KernelMode
+Circular             1052672        1173 Microsoft-Windows-Security-Mitigations/KernelMode
 Circular             1052672        1219 Microsoft-Windows-Security-LessPrivilegedAppContainer/Operational
-Circular             1052672           0 Microsoft-Windows-Security-Isolation-BrokeringFileSystem/Operatio…
-Circular             1052672             Microsoft-Windows-Security-ExchangeActiveSyncProvisioning/Operati…
-Circular             1052672           0 Microsoft-Windows-Security-EnterpriseData-FileRevocationManager/O…
+Circular             1052672           0 Microsoft-Windows-Security-Isolation-BrokeringFileSystem/Operational
+Circular             1052672             Microsoft-Windows-Security-ExchangeActiveSyncProvisioning/Operational
+Circular             1052672           0 Microsoft-Windows-Security-EnterpriseData-FileRevocationManager/Operational
 Circular             1052672           0 Microsoft-Windows-Security-Audit-Configuration-Client/Operational
 Circular             1052672           0 Microsoft-Windows-SearchUI/Operational
 Circular             1052672             Microsoft-Windows-RRAS/Operational
@@ -177,9 +177,9 @@ Circular             1052672           0 Microsoft-Windows-RetailDemo/Operationa
 Circular             1052672           0 Microsoft-Windows-RetailDemo/Admin
 Circular             1052672           0 Microsoft-Windows-RestartManager/Operational
 Circular             1052672         254 Microsoft-Windows-Resource-Exhaustion-Resolver/Operational
-Circular             1052672        1020 Microsoft-Windows-Resource-Exhaustion-Detector/Operational
+Circular             1052672        1021 Microsoft-Windows-Resource-Exhaustion-Detector/Operational
 Circular             1052672             Microsoft-Windows-Remotefs-Rdbss/Operational
-Circular             1052672           0 Microsoft-Windows-RemoteDesktopServices-SessionServices/Operation…
+Circular             1052672           0 Microsoft-Windows-RemoteDesktopServices-SessionServices/Operational
 Circular             1052672           0 Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational
 Circular             1052672           0 Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Admin
 Circular             1052672           0 Microsoft-Windows-RemoteAssistance/Operational
@@ -191,21 +191,21 @@ Circular            33554432           0 Microsoft-Windows-ReFS/Operational
 Circular             1052672           0 Microsoft-Windows-ReadyBoostDriver/Operational
 Circular             1052672         184 Microsoft-Windows-ReadyBoost/Operational
 Circular             1052672             Microsoft-Windows-RasAgileVpn/Operational
-Circular             1052672        1634 Microsoft-Windows-PushNotification-Platform/Operational
+Circular             1052672        1658 Microsoft-Windows-PushNotification-Platform/Operational
 Circular             1052672           0 Microsoft-Windows-PushNotification-Platform/Admin
 Circular             1052672             Microsoft-Windows-Proximity-Common/Diagnostic
-Circular             1052672           0 Microsoft-Windows-Provisioning-Diagnostics-Provider/ManagementSer…
+Circular             1052672           0 Microsoft-Windows-Provisioning-Diagnostics-Provider/ManagementService
 Circular             1052672           0 Microsoft-Windows-Provisioning-Diagnostics-Provider/AutoPilot
 Circular             1052672        1049 Microsoft-Windows-Provisioning-Diagnostics-Provider/Admin
-Circular             1052672           0 Microsoft-Windows-Program-Compatibility-Assistant/CompatAfterUpgr…
+Circular             1052672           0 Microsoft-Windows-Program-Compatibility-Assistant/CompatAfterUpgrade
 Circular             1052672             Microsoft-Windows-Program-Compatibility-Assistant/Analytic
 Retain             104857600         422 Microsoft-Windows-Privacy-Auditing/Operational
-Circular             1052672             Microsoft-Windows-Privacy-Auditing-PermissiveLearningMode/Operati…
+Circular             1052672             Microsoft-Windows-Privacy-Auditing-PermissiveLearningMode/Operational
 Circular             1052672         123 Microsoft-Windows-PrintService/Operational
 Circular             1052672           0 Microsoft-Windows-PrintService/Admin
 Circular            15728640        9235 Microsoft-Windows-PowerShell/Operational
 Retain            1048985600           0 Microsoft-Windows-PowerShell/Admin
-Circular             1052672           0 Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownlo…
+Circular             1052672           0 Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Operational
 Circular             1052672           0 Microsoft-Windows-Policy/Operational
 Circular             6291456           0 Microsoft-Windows-PersistentMemory-ScmBus/Operational
 Circular             1052672           0 Microsoft-Windows-PersistentMemory-ScmBus/Certification
@@ -222,7 +222,7 @@ Circular             1052672             Microsoft-Windows-OneX/Operational
 Circular             1052672           0 Microsoft-Windows-OneBackup/Debug
 Circular             1052672           0 Microsoft-Windows-NTLM/Operational
 Circular             1052672          52 Microsoft-Windows-Ntfs/WHC
-Circular            33554432       16620 Microsoft-Windows-Ntfs/Operational
+Circular            33554432       16619 Microsoft-Windows-Ntfs/Operational
 Circular             1052672          13 Microsoft-Windows-NlaSvc/Operational
 Circular             1052672           0 Microsoft-Windows-NetworkProvisioning/Operational
 Circular             1052672           0 Microsoft-Windows-NetworkProvider/Operational
@@ -238,18 +238,18 @@ Circular             1052672          14 Microsoft-Windows-MUI/Operational
 Circular             1052672           0 Microsoft-Windows-MUI/Admin
 Circular             1052672           0 Microsoft-Windows-Mprddm/Operational
 Circular             1052672             Microsoft-Windows-MosHost/Operational
-Circular             1052672          10 Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Managemen…
-Circular             1052672           0 Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Diagnosti…
+Circular             1052672          10 Microsoft-Windows-ModernDeployment-Diagnostics-Provider/ManagementService
+Circular             1052672           0 Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Diagnostics
 Circular             1052672           4 Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot
 Circular             1052672           0 Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Admin
 Circular             1052672           0 Microsoft-Windows-MemoryDiagnostics-Results/Debug
 Circular             1052672             Microsoft-Windows-MediaFoundation-Performance/SARStreamResource
 Circular             1052672             Microsoft-Windows-LSA/Operational
-Circular             1052672         497 Microsoft-Windows-LiveId/Operational
+Circular             1052672         503 Microsoft-Windows-LiveId/Operational
 Circular             1052672             Microsoft-Windows-LinkLayerDiscoveryProtocol/Operational
 Circular            52428800           0 Microsoft-Windows-LAPS/Operational
 Circular             1052672         267 Microsoft-Windows-LanguagePackSetup/Operational
-Circular             1052672        2013 Microsoft-Windows-Known Folders API Service
+Circular             1052672        2021 Microsoft-Windows-Known Folders API Service
 Circular            33554432         569 Microsoft-Windows-Kernel-WHEA/Operational
 Circular            33554432           0 Microsoft-Windows-Kernel-WHEA/Errors
 Circular             1052672           0 Microsoft-Windows-Kernel-WDI/Operational
@@ -265,14 +265,14 @@ Circular             1052672           0 Microsoft-Windows-Kernel-IO/Operational
 Circular             1052672        2190 Microsoft-Windows-Kernel-EventTracing/Admin
 Circular             1052672          52 Microsoft-Windows-Kernel-Dump/Operational
 Circular             1052672           0 Microsoft-Windows-Kernel-CPU-Starvation/Operational
-Circular             1052672         782 Microsoft-Windows-Kernel-Cache/Operational
+Circular             1052672         793 Microsoft-Windows-Kernel-Cache/Operational
 Circular             1052672         158 Microsoft-Windows-Kernel-Boot/Operational
 Circular             1052672           0 Microsoft-Windows-Kernel-ApphelpCache/Operational
 Circular             1052672             Microsoft-Windows-Kerberos/Operational
 Circular             1052672           0 Microsoft-Windows-KdsSvc/Operational
 Circular             1052672           0 Microsoft-Windows-IPxlatCfg/Operational
 Circular             1052672           0 Microsoft-Windows-Iphlpsvc/Operational
-Circular             1052672           0 Microsoft-Windows-International-RegionalOptionsControlPanel/Opera…
+Circular             1052672           0 Microsoft-Windows-International-RegionalOptionsControlPanel/Operational
 Circular             1052672           0 Microsoft-Windows-IKE/Operational
 Circular             1052672           0 Microsoft-Windows-IdCtrls/Operational
 Circular             1052672           0 Microsoft-Windows-Hyper-V-Worker-Operational
@@ -295,7 +295,7 @@ Circular             1052672           0 Microsoft-Windows-HomeGroup Control Pan
 Circular             1052672           0 Microsoft-Windows-hidcfu/Operational
 Circular             1052672           0 Microsoft-Windows-Help/Operational
 Circular             1052672        2098 Microsoft-Windows-HelloForBusiness/Operational
-Circular             4194304       10139 Microsoft-Windows-GroupPolicy/Operational
+Circular             4194304       10251 Microsoft-Windows-GroupPolicy/Operational
 Circular             1052672             Microsoft-Windows-glcnd/Admin
 Circular             1052672           0 Microsoft-Windows-GenericRoaming/Admin
 Circular             1052672           0 Microsoft-Windows-Forwarding/Operational
@@ -330,25 +330,25 @@ Circular             1052672           0 Microsoft-Windows-DiskDiagnosticDataCol
 Circular             1052672           0 Microsoft-Windows-DiskDiagnostic/Operational
 Circular             1052672         225 Microsoft-Windows-Diagnostics-Performance/Operational
 Circular             1052672           4 Microsoft-Windows-Diagnostics-Networking/Operational
-Circular             1052672           0 Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Operation…
+Circular             1052672           0 Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Operational
 Circular             1052672         240 Microsoft-Windows-Diagnosis-Scripted/Operational
 Circular             1052672          59 Microsoft-Windows-Diagnosis-Scripted/Admin
 Circular             1052672         405 Microsoft-Windows-Diagnosis-Scheduled/Operational
 Circular             1052672           0 Microsoft-Windows-Diagnosis-PLA/Operational
 Circular             1052672        2259 Microsoft-Windows-Diagnosis-PCW/Operational
-Circular             1052672        1941 Microsoft-Windows-Diagnosis-DPS/Operational
+Circular             1052672        1867 Microsoft-Windows-Diagnosis-DPS/Operational
 Circular             1052672             Microsoft-Windows-Dhcpv6-Client/Operational
 Circular             1052672        2531 Microsoft-Windows-Dhcpv6-Client/Admin
 Circular             1052672             Microsoft-Windows-Dhcp-Client/Operational
-Circular             1052672        2227 Microsoft-Windows-Dhcp-Client/Admin
+Circular             1052672        2231 Microsoft-Windows-Dhcp-Client/Admin
 Circular             1052672           0 Microsoft-Windows-DeviceUpdateAgent/Operational
 Circular             1052672           0 Microsoft-Windows-DeviceSync/Operational
 Circular             1052672         175 Microsoft-Windows-DeviceSetupManager/Operational
 Circular             1052672        2122 Microsoft-Windows-DeviceSetupManager/Admin
 Circular             1052672           0 Microsoft-Windows-Devices-Background/Operational
-Circular             1052672        1080 Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provide…
-Circular             1052672           0 Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provide…
-Circular             1052672         668 Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provide…
+Circular             1052672        1080 Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational
+Circular             1052672           0 Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Autopilot
+Circular             1052672         668 Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin
 Circular             1052672           0 Microsoft-Windows-DeviceGuard/Operational
 Circular             1052672           0 Microsoft-Windows-DateTimeControlPanel/Operational
 Circular             1052672           0 Microsoft-Windows-DataIntegrityScan/CrashRecovery
@@ -367,22 +367,22 @@ Circular             1052672           0 Microsoft-Windows-CoreApplication/Opera
 Circular             1052672          51 Microsoft-Windows-Containers-Wcifs/Operational
 Circular             1052672          51 Microsoft-Windows-Containers-BindFlt/Operational
 Circular             1052672           0 Microsoft-Windows-Compat-Appraiser/Operational
-Circular             1052672        1426 Microsoft-Windows-CodeIntegrity/Operational
+Circular             1052672        1457 Microsoft-Windows-CodeIntegrity/Operational
 Circular             1052672        1886 Microsoft-Windows-CloudStore/Operational
 Circular             1052672         218 Microsoft-Windows-CloudStore/Initialization
 Circular            10485760             Microsoft-Windows-CloudStore/Debug
 Circular             1052672        1743 Microsoft-Windows-CloudRestoreLauncher/Operational
 Circular             8388608           0 Microsoft-Windows-Cleanmgr/Diagnostic
 Circular             1052672             Microsoft-Windows-CertPoleEng/Operational
-Circular             1052672           0 Microsoft-Windows-CertificateServicesClient-Lifecycle-User/Operat…
-Circular             1052672           4 Microsoft-Windows-CertificateServicesClient-Lifecycle-System/Oper…
-Circular             1052672             Microsoft-Windows-CertificateServicesClient-CredentialRoaming/Ope…
+Circular             1052672           0 Microsoft-Windows-CertificateServicesClient-Lifecycle-User/Operational
+Circular             1052672           4 Microsoft-Windows-CertificateServicesClient-Lifecycle-System/Operational
+Circular             1052672             Microsoft-Windows-CertificateServicesClient-CredentialRoaming/Operational
 Circular             1052672             Microsoft-Windows-CAPI2/Operational
 Circular             1052672             Microsoft-Windows-Bluetooth-Policy/Operational
 Circular             1052672           0 Microsoft-Windows-Bluetooth-MTPEnum/Operational
 Circular             1052672             Microsoft-Windows-Bluetooth-Bthmini/Operational
 Circular             1052672           0 Microsoft-Windows-Bluetooth-BthLEPrepairing/Operational
-Circular             1052672        1239 Microsoft-Windows-Bits-Client/Operational
+Circular             1052672        1258 Microsoft-Windows-Bits-Client/Operational
 Circular             1052672             Microsoft-Windows-Bits-Client/Analytic
 Circular             1052672             Microsoft-Windows-BitLocker/BitLocker Operational
 Circular             1052672          85 Microsoft-Windows-BitLocker/BitLocker Management
@@ -392,10 +392,10 @@ Circular             1052672             Microsoft-Windows-Base-Filtering-Engine
 Circular             1052672           0 Microsoft-Windows-Backup
 Circular             1052672             Microsoft-Windows-BackgroundTransfer-ContentPrefetcher/Operational
 Circular             1052672        1300 Microsoft-Windows-BackgroundTaskInfrastructure/Operational
-Circular             1052672             Microsoft-Windows-Authentication/ProtectedUserSuccesses-DomainCon…
-Circular             1052672             Microsoft-Windows-Authentication/ProtectedUserFailures-DomainCont…
+Circular             1052672             Microsoft-Windows-Authentication/ProtectedUserSuccesses-DomainController
+Circular             1052672             Microsoft-Windows-Authentication/ProtectedUserFailures-DomainController
 Circular             1052672             Microsoft-Windows-Authentication/ProtectedUser-Client
-Circular             1052672             Microsoft-Windows-Authentication/AuthenticationPolicyFailures-Dom…
+Circular             1052672             Microsoft-Windows-Authentication/AuthenticationPolicyFailures-DomainController
 Circular             1052672           9 Microsoft-Windows-Authentication User Interface/Operational
 Circular             1052672         349 Microsoft-Windows-Audio/PlaybackManager
 Circular             1052672         534 Microsoft-Windows-Audio/Operational
@@ -410,16 +410,16 @@ Circular             1052672         732 Microsoft-Windows-AppXDeployment/Operat
 Circular             5242880         210 Microsoft-Windows-AppXDeployment-Server/Operational
 Circular             5242880         579 Microsoft-Windows-AppReadiness/Operational
 Circular             5242880        4930 Microsoft-Windows-AppReadiness/Admin
-Circular             1052672        1544 Microsoft-Windows-AppModel-Runtime/Admin
+Circular             1052672        1505 Microsoft-Windows-AppModel-Runtime/Admin
 Circular             1052672           0 Microsoft-Windows-AppLocker/Packaged app-Execution
 Circular             1052672           0 Microsoft-Windows-AppLocker/Packaged app-Deployment
 Circular             1052672          23 Microsoft-Windows-AppLocker/MSI and Script
 Circular             1052672        1507 Microsoft-Windows-AppLocker/EXE and DLL
 Circular             1052672           0 Microsoft-Windows-Application-Experience/Steps-Recorder
-Circular             1052672        1464 Microsoft-Windows-Application-Experience/Program-Telemetry
+Circular             1052672        1470 Microsoft-Windows-Application-Experience/Program-Telemetry
 Circular             1052672           0 Microsoft-Windows-Application-Experience/Program-Inventory
-Circular             1052672           0 Microsoft-Windows-Application-Experience/Program-Compatibility-Tr…
-Circular             1052672          79 Microsoft-Windows-Application-Experience/Program-Compatibility-As…
+Circular             1052672           0 Microsoft-Windows-Application-Experience/Program-Compatibility-Troubleshooter
+Circular             1052672          79 Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant
 Circular             1052672           0 Microsoft-Windows-Application Server-Applications/Operational
 Circular             1052672           0 Microsoft-Windows-Application Server-Applications/Admin
 Circular             1052672           0 Microsoft-Windows-ApplicabilityEngine/Operational
@@ -429,7 +429,7 @@ Circular             1052672        1990 Microsoft-Windows-AllJoyn/Operational
 Circular             1052672           0 Microsoft-Windows-All-User-Install-Agent/Admin
 Circular             1052672         579 Microsoft-Windows-AAD/Operational
 Circular             1052672           0 Microsoft-System-Diagnostics-DiagnosticInvoker/Operational
-Circular             1052672        2028 Microsoft-Client-Licensing-Platform/Admin
+Circular             1052672        2031 Microsoft-Client-Licensing-Platform/Admin
 Circular             1052672             Intel-iaLPSS2-UART2/Analytic
 Circular             1052672             Intel-iaLPSS2-SPI/Performance
 Circular             1052672             Intel-iaLPSS2-SPI/Debug
