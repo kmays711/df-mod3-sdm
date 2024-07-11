@@ -34,7 +34,7 @@ $timestamp = Get-Date -Format "yyyy-MM-dd"
 Get-WinEvent -LogName Microsoft-Windows-TaskScheduler/Maintenance -MaxEvents 1000 > C:/Users/kimbe/documents/df-mod3-sdm/df-mod3-sdm/Task3/MaintLogs_$timestamp.txt
 
 ##Find line items with that have a "Warning" alert message and direct them to a new file with timestamp
-Get-Content -Path "C:/Users/kimbe/documents/df-mod3-sdm/df-mod3-sdm/Task3/Warning_$timestamp.txt" | Select-String -Pattern "Attempted" > C:/Users/kimbe/documents/df-mod3-sdm/df-mod3-sdm/Task3/WarningMaintLogs_$timestamp.txt
+Get-Content -Path "C:/Users/kimbe/documents/df-mod3-sdm/df-mod3-sdm/Task3/Warning_$timestamp.txt" | Select-String -Pattern "Warning" > C:/Users/kimbe/documents/df-mod3-sdm/df-mod3-sdm/Task3/WarningMaintLogs_$timestamp.txt
 
 
 
